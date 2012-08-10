@@ -1,4 +1,4 @@
-var Script = process.binding('evals').Script;
+var Script = require("vm");
 var HStream = require("./hstream").HStream;
 
 // Execution context
